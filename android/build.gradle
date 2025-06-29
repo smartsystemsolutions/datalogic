@@ -26,6 +26,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "io.smartsystemsolutions.datalogic"
     compileSdkVersion 31
 
     compileOptions {
